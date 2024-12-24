@@ -1,0 +1,65 @@
+body{
+    font-family: arial,sans-serif;
+    margin: 20px;
+    background-color:bisque;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: chartreuse;
+}
+.exam-table{
+    width: 80%;
+    margin: 5px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    box-shadow: 0 2px 4px black;
+}
+
+.exam-table thead th {
+    background-color: green;
+    color: blanchedalmond;
+    padding: 10px;
+    text-align: left;
+}
+
+.exam-table td{
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.exam-table tbody tr:nth-child(odd){
+    background-color: aliceblue;
+}
+.exam-table input[type="text"]{
+    width:90%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid wheat;
+    border-radius: 4px;
+}
+.exam-table input[type="text"]:hover{
+    border-color: chartreuse;
+}
+
+.exam-table input[type="text"]:focus{
+    outline:none;
+    border-color: chartreuse;
+    box-shadow: 0 0 5px green;
+}
+
+.submit-button{
+    display: block;
+    margin: 20px auto ;
+    padding: 10px 20px;
+    background-color: chartreuse;
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.submit-button:hover{
+    background-color: chartreuse;
+} 

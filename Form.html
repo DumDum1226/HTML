@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Form Örneği</title>
+</head>
+<body style="text-align: center; background-color: gold;">
+<h1>Bilgilerini GİR</h1>
+<form name="giris" action="giris.html" method="get" >
+<label>Ad:</label> <input type="text"/> <br/><br/>
+<label>Soyad:</label> <input type="text"/> <br/><br/>
+Şifre:<input type="password"name="sifre"/><br><br>
+<label>e-Posta:</label><input type= ><br/><br/>
+<p>Renk seçin: <input type="color" name="renk"></p>
+<p>Doğum tarihi: <input type="date" name="dogumtarihi"></p>
+<p>Doğum günü:<input type="datetime" name="dogumgunu"></p>
+<p>Ay ve Yıl: <input type="month" name="ay"></p>
+<p>Hafta ve Yıl: <input type="week" name="hafta"></p>
+<p>Randevu saati: <input type="time" name="randevusaat"></p>
+<p>Randevu tarihi ve saati: <input type="datetime-local" name="randevutarih"></p>
+<p>E-posta: <input type="email" name="eposta"></p>
+<p>Web sayfanız: <input type="url" name="weburl"></p>
+<p>Sayı (1-9): <input type="sumber" name="sec" min="1" max="9"></p>
+<p>Parola: <input type="password" name="sifre"></p>
+<p>Aralık (1-9): <input type="range" name="secim" min="1" max="9"></p>
+<p>Arama: <input type="search" name="arama"></p>
+<p>GSM: <input type="tel" name="gsmno"></p>
+<select name="iller" size="1">
+    <option value="plaka54">Sakarya</option>
+    <option value="plaka06">Ankara</option>
+    <option value="plaka34">İstanbul</option>
+</select><br><br>
+<select name="aylar" multiple>
+    <option value="1">Ocak</option>
+    <option value="2">Şubat</option>
+    <option value="3">Mart</option>
+    <option value="4">Nisan</option>
+    <option value="5">Mayıs</option>
+    <option value="6">Haziran</option>
+</select><br><br>
+ <input type="checkbox" name="kutu1" />HTML<br/>
+ <input type="checkbox" name="kutu2"/>CSS<br/>
+ <input type="checkbox" name="kutu3"/>Java Script<br><br>
+ <input type="radio" name="secim"/>Erkek<br/>
+ <input type="radio" name="secim"/>Kadın<br><br>
+ <input type="submit" value="Gönder"/><br><br>
+</form>
+</body> <br>
+</html>

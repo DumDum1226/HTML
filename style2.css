@@ -1,0 +1,24 @@
+ul{
+    list-style-type:Upper-Roman;
+}
+li{
+    width:300px;
+    margin:5px;
+    padding:5px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-style:double;
+    border-color: rgb(119, 224, 224);
+    background-color: goldenrod;
+}
+h1{
+  margin:5px;
+  padding:5px;
+  border-style:inset;
+  border-color:blueviolet;
+  background-color: aqua;
+}
+a{
+    border: sienna dashed 3px;
+    font-size:100px;
+    display: block;
+}

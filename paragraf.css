@@ -1,0 +1,12 @@
+body{
+    background-image: URL
+}
+pre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent:center;
+    line-height: 30px;
+    text-transform: capitalize;
+    word-spacing: normal;
+    letter-spacing: 2px;
+    font-style: italic;
+}
